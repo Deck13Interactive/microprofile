@@ -179,8 +179,6 @@ void MicroProfileFreeAligned(void* pMem)
 }
 
 #elif defined(_WIN32)
-#include <winsock2.h>
-#include <ws2tcpip.h>
 int64_t MicroProfileGetTick();
 #define MP_TICK() MicroProfileGetTick()
 #define MP_BREAK() __debugbreak()
