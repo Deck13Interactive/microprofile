@@ -11,6 +11,7 @@
 #include <stdio.h>
 #include <ctype.h>
 #include <string.h>
+#include <malloc.h>
 
 #define MICROPROFILE_MAX_COUNTERS 512
 #define MICROPROFILE_MAX_COUNTER_NAME_CHARS (MICROPROFILE_MAX_COUNTERS*16)
